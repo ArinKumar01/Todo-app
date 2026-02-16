@@ -24,7 +24,7 @@ addTaskButton.addEventListener('click',()=>{
     console.log(tasks);
 
 });
-
+//there is something to be change.
 function renderTask(task){                                           //local storage se task or data ko read karna
          const li = document.createElement('li')
          li.setAttribute('data-id',task.id)
